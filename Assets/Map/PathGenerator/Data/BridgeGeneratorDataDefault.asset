@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ebc37d0b1d35f14cbf8ab8898e2ae9c, type: 3}
+  m_Name: BridgeGeneratorDataDefault
+  m_EditorClassIdentifier: 
+  endFixed:
+  - asset: {fileID: 4030417622061662023, guid: e4b9432aad9b6564f8b5f6cff3304104, type: 3}
+    weight: 1
+  endJoint: []
+  endFixedJunctionOffset: {x: 0, y: 60, z: 20}
+  roadFixed: []
+  roadJoint:
+  - asset: {fileID: 6941395351898765150, guid: fdb95c45dbeb7ee4aa79d0c231b9fd08, type: 3}
+    weight: 1
+  - asset: {fileID: 5737121740128157962, guid: 9b7a3a5bad6d82440a2318fe788be269, type: 3}
+    weight: 1
+  - asset: {fileID: 3243167180942222796, guid: 29d97e36abfb5c14dad759f284cedcaa, type: 3}
+    weight: 1
+  columnFixed:
+  - asset: {fileID: 4159754212170659515, guid: b1adc90261e34bf48b0502f29278e452, type: 3}
+    weight: 1
+  columnJoint:
+  - asset: {fileID: 337897726377119830, guid: e478c401cef4c464bae3634a970284f2, type: 3}
+    weight: 1
+  columnFixedJunctionOffset: {x: 0, y: -10, z: 0}
+  columnGapLength: 80
+  minLength: 30

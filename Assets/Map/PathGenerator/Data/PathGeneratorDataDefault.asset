@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce718d3f44c062842bb07dfb9f0fb51e, type: 3}
+  m_Name: PathGeneratorDataDefault
+  m_EditorClassIdentifier: 
+  azimuthSlotCount: 16
+  radialSlotCount: 4
+  radialOffset: 1
+  pathMinHeight: 10
+  centerRadius: 60
+  centerPadding: 40
+  pathInfos:
+  - azimuthSlotCount: 4
+    nodes:
+    - nodeRadius: 60
+      nodePadding: 30
+      roadWidth: 20
+      roadPadding: 30
+      construct: {fileID: 7596812473431804961, guid: 6284e77a15587ab42bcc5923fb3f7103,
+        type: 3}
+    - nodeRadius: 60
+      nodePadding: 30
+      roadWidth: 20
+      roadPadding: 30
+      construct: {fileID: 7981573493313563983, guid: d3356a44971b2ed4f864502b77aa5a3f,
+        type: 3}
+  - azimuthSlotCount: 4
+    nodes:
+    - nodeRadius: 60
+      nodePadding: 30
+      roadWidth: 20
+      roadPadding: 30
+      construct: {fileID: 5777073164763582767, guid: da35c848cb8ac0543ad3724c4877c480,
+        type: 3}
+    - nodeRadius: 60
+      nodePadding: 30
+      roadWidth: 20
+      roadPadding: 30
+      construct: {fileID: 8490006339939414980, guid: aceef64ddd367c74fbfe0d701ee51d83,
+        type: 3}
+  - azimuthSlotCount: 4
+    nodes:
+    - nodeRadius: 60
+      nodePadding: 30
+      roadWidth: 20
+      roadPadding: 30
+      construct: {fileID: 7981573493313563983, guid: d3356a44971b2ed4f864502b77aa5a3f,
+        type: 3}
+    - nodeRadius: 60
+      nodePadding: 30
+      roadWidth: 20
+      roadPadding: 30
+      construct: {fileID: 8490006339939414980, guid: aceef64ddd367c74fbfe0d701ee51d83,
+        type: 3}
+  roadSectionStepSize: 5
+  roadPartMinLen: 50
+  roadIndentHeightOffset: -5
+  roadIndentWidthLength: 5
