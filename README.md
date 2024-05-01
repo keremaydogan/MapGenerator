@@ -1,6 +1,6 @@
 # MapGenerator
 
-The Procedural 3D Map Generator is a versatile tool for real-time procedural map generation which is mainly created for need of consecutively generating large 3D maps. It provides features including terrain generation, civilization generation (constructs as towns, roads, and bridges), and decorations. Map Generator **does not** work with fixed models or **does not** generate terrain with fixed height range. User can use any prefabs, models, terrain properties as they want. Example visuals are created with default data set which repo contains. 
+The Procedural 3D Map Generator is a versatile tool for real-time procedural map generation, mainly created to meet the need for consecutively generating large 3D maps. It provides features including terrain generation, civilization generation (such as towns, roads, and bridges), and decorations. The Map Generator does not work with fixed models or generate terrain with a fixed height range. Users can utilize any prefabs, models, or terrain properties as they wish. Example visuals are created with the default dataset included in the repository.
 
 Seed: 15151515<br>
 ![S_15151515](https://github.com/keremaydogan/MapGenerator/assets/62666688/9bd61aac-48bb-486c-8f3f-9b9b0871b379)
@@ -67,7 +67,7 @@ Map Generator has 3 main module: Terrain Generator, Path Generator, and Map Deco
 Terrain Generator Data<br>
 ![TerraGenData](https://github.com/keremaydogan/MapGenerator/assets/62666688/0d6a477b-f416-4231-9483-022905506068)
 <br>
-Terrain generation works with appliance of multiple perlin noise levels with different cell size and amplitude coefficients.
+Terrain generation works by applying multiple Perlin noise levels with different cell sizes and amplitude coefficients.
 
 ### Path Generator
 Path Generator Data<br>
@@ -79,14 +79,14 @@ Bridge Generator Data<br>
 Road Generator Data<br>
 ![RoadGenData](https://github.com/keremaydogan/MapGenerator/assets/62666688/8d97254d-1556-4e4a-8eca-57ecfc3d09b0)
 <br>
-Path Generator controls the building of constructions as how to connect settlements, how to alter terrain for creating walkable roads, where to put bridges etc.<br>
-Generating roads as different gameobject will be obsolote after texture generation update.
+The Path Generator controls the building of constructions, determining how to connect settlements, alter terrain to create walkable roads, and where to place bridges, among other functions. Generating roads as separate game objects will become obsolete after the texture generation update.
 
 ### Map Decorator
 Map Decorator Data<br>
 ![MapDecoratorData](https://github.com/keremaydogan/MapGenerator/assets/62666688/38373993-bffe-47e4-aab4-0dcf341806ca)
 <br>
-Map decorator controls place and count of decorations such as trees, rocks, statues, water towers etc.<br>
+
+The Map Decorator controls the placement and quantity of decorations, such as trees, rocks, statues, and water towers.
 
 ## License
 Shield: [![CC BY-ND 4.0][cc-by-nd-shield]][cc-by-nd]
