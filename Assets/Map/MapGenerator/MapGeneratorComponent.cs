@@ -112,7 +112,7 @@ public class MapGeneratorComponent : MonoBehaviour
 
         pathGen.ApplyRoadsToTerrain(ref terraGen.heightMap, ref occupiedAreas);
 
-        terraGen.PlaceLandforms(ref occupiedAreas);
+        //terraGen.PlaceLandforms(ref occupiedAreas);
 
         mapDecorator.PlaceDecorationsRandomOccupy(seed, ref terraGen.heightMap, ref occupiedAreas);
 

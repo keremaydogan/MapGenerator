@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapSize: {x: 1500, y: 1500}
   unitSize: 2
-  heightOffset: 75
+  heightOffset: 50
   pathCellSize: 32
   perlinValues:
   - cellSize: 1000

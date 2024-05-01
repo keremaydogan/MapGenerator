@@ -33,7 +33,7 @@ public class TerrainGenerator
 
     public TerrainGeneratorData data;
 
-    public PremadeLandformData premadeLandformData;
+    //public PremadeLandformData premadeLandformData;
 
     int seed;
 
@@ -384,7 +384,7 @@ public class TerrainGenerator
         }
     }
 
-
+    /*
     #region LANDFORMS
     Vector2Int FindEmptyAreaForCircle(OBBArea area, int radius, ref List<OBBArea> occupiedAreas, int borderOffset = 0)
     {
@@ -473,7 +473,7 @@ public class TerrainGenerator
 
     }
     #endregion
-
+    */
 
     #region GENERAL
     void MakeFlatCircle(Vector2Int center, float radius, float padding, float flatHeight, float flatHeightOffset = 0, float innerPadding = 0)
